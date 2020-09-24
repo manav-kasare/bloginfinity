@@ -1,0 +1,13 @@
+{%  extends 'dashboard/base.html' %}
+{% block content %}
+    <div class = 'post'>
+        <h1>New Blog: </h1>
+        
+        <form method = 'POST' class = "blogform">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="edit">Save</button>
+        </form>
+
+    </div>
+{% endblock %}

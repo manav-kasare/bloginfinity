@@ -1,0 +1,167 @@
+html{
+    background-color: whitesmoke;
+}
+#home, #new_blog, #newbutton, #user, #editbutton, #edit, #submitbutton{
+    transition: 0.3s;
+}
+#home:hover, #new_blog:hover, #edit:hover{
+    color: blue;
+}
+#newbutton:hover{
+    background-color: black;
+}
+#user:hover{
+    color: white;
+}
+#editbutton:hover, #submitbutton:hover{
+    background-color: white;
+}
+.headers{
+    height: 80px;
+    list-style: none;
+}
+#home{
+    color: white;
+    float: left;
+    padding: 15px 0px;
+    font-size: 40px;
+    text-decoration-line: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile{
+    float: right;
+    padding: 20px 20px;
+    font-size: 30px;
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    color: white;
+    display: inline;
+}
+header{
+    background-color: black;
+    border-radius: 5px;
+}
+.user{
+    font-family: sans-serif;
+    color: blue;
+    font-size: 22px;
+    text-decoration-line: none;
+    float: right;
+    padding: 28px 17vh;
+}
+.newblog{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-color: white;
+    height: 40px;
+    width: 90px;
+    top: 35px;
+    right: 30px;
+    float: right;
+}
+.content{
+    margin-left: 4vh;
+}
+h4{
+    color: black;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+}
+.form{
+    margin-left: 20vh;
+}
+.edit{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: black;
+    height: 40px;
+    width: 90px;   
+}
+a{
+    text-decoration-line: none;
+}
+#edit{
+    color: white;
+}
+.editprofile{
+    margin-left: 4vh;
+    font-family: sans-serif;
+}
+form{
+    font-family: sans-serif;
+}
+.h1{
+    position: relative;
+    font-family: sans-serif;
+}
+#username{
+    position: relative;
+    left: 20vh;
+}
+.post{
+    margin-left: 10vh;
+    font-family: sans-serif;
+}
+.blogform{
+    height: 50vh;
+    width: 50vh;
+}
+.card{
+    box-shadow: 0 5px 5px black;
+    border-radius: 5px;
+    height: auto;
+    width: 100vh;
+    background-color: white;
+    padding: 1vh 2vh;
+    margin-bottom: 5vh;
+}
+#new_blog{
+    color: black;
+    font-size: 15px;
+}
+.con-text{
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.author{
+    font-weight: 300;
+    font-family: monospace;
+    font-size: 16px;
+}
+.card-title{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.title{
+    font-weight: bolder;
+    font-size: 26px;
+}
+.card-text{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.read{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: blue;
+}
+.card1{
+    box-shadow: 0 5px 5px black;
+    border-radius: 5px;
+    height: auto;
+    width: 150vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    background-color: white;
+    padding: 2vh 5vh;
+    margin-bottom: 5vh;
+}

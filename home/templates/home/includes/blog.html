@@ -1,0 +1,7 @@
+{% extends "home/header.html" %}
+{% block content %}
+<img src = "https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+  {% for post in object_list %}
+		<h5>{{ post.date|date:"Y-m-d" }}<a href="/blog/{{post.id}}">  {{ post.title }}</a></h5>
+	{% endfor %}
+{% endblock %}

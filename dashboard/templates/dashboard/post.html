@@ -1,0 +1,9 @@
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+    <div class="card1">
+        <p class="card-title"><span class = "title">Title: </span>{{ post.title }}</p>
+        <p class="author">{{ post.author }} | {{ post.created_on}} </p>
+        <p class="card-text"><span class = "con-text">Content:</span><br><br> {{ post.body|safe }}</p>
+    </div>
+{% endblock %}

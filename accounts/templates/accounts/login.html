@@ -1,0 +1,16 @@
+{% extends "home/blog.html" %}
+
+{% block content %}
+    <a href = "../" id = "home" class = "heading animation">BlogInfinity</a>
+    <div class = "loginform animation">
+        <h1>Log In</h1><br>
+        <form method="post">
+            <p id = "loginp">
+                {% csrf_token %}
+                {{  form.as_p }}
+            </p>
+            <br>
+            <button type ="submit" class= "loginbutton animation">Log In</button>
+        </form>
+    </div>
+{% endblock %}

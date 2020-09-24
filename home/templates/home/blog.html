@@ -1,0 +1,28 @@
+{%  load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blogs</title>
+    <meta charset="utf-8">
+    <link rel = "stylesheet"  href="{% static 'css/blog.css' %}">
+  </head>
+  <body>
+      
+    <section>
+        {% block content %}
+        <a href = "../" id = "home" class = "heading animation">BlogInfinity</a>
+        <br><br><br>
+        <div class = "content animation">
+          <ul>
+            {% for post in object_list %}
+            <li>
+              <h2><a href="/blog/{{post.id}}" class = "title">{{ post.title }}</a></h2>
+              <p id = "date">{{ post.date|date:"d/m/Y" }}</p>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endblock %}
+        </section>
+  </body>
+</html>

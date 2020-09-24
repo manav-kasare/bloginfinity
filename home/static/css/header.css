@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(newblog.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.headers{
+    height: 80px;
+    list-style: none;
+}
+#home{
+    color: white;
+    float: left;
+    padding: 30px 30px;
+    font-size: 40px;
+    text-decoration-line: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    color: white;
+    display: inline;
+}
+#login{
+    float: right;
+    color: whitesmoke;
+    text-decoration-line: none;
+    padding: 30px 30px;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    position: absolute;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    top: 350px;
+    left: 67vh;
+    font-size: 46px;
+}
+h3{
+    position: relative;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: black;
+    top: 345px;
+    left: 45vh;
+    font-size: 28px;
+}
+.button{
+    position: relative;
+    background-color: black;
+    border-radius: 5px;
+    border-color: transparent;
+    height: 45px;
+    width: 130px;
+    top: 365px;
+    left: 83vh;
+    transition: 0.3s;
+}
+#home, #login{
+    transition: 0.3s;
+}
+#home:hover, #login:hover{
+    color: black;
+}
+
+.button:hover{
+    background-color: transparent;
+    color:black;
+}
+.animation{
+    animation: fade 2.5s ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fade{
+    0% {opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#start{
+    color: whitesmoke;
+    transition: 0.3s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding: 5px 5px;
+    text-decoration-line: none;
+}
+#start:hover{
+    color: black;
+}

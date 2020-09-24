@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Dashboard</title>
+        <meta charset  = 'utf-8'>
+        <link rel = 'stylesheet' href = "{% static 'css/dashboard.css' %}">
+    </head>
+
+    <body>
+
+        <header>
+            <div class= "container">
+                <ul class = "headers">
+                    <li><a href = "/dashboard/" id = "home">BlogInfinity</li>
+                    <li><a href = "/dashboard/profile/" class = "user" id = "user">{{user}}</a></li><br><br>
+                </ul>
+            </div>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+
+</html>    

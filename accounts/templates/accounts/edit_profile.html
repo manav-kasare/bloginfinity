@@ -1,0 +1,12 @@
+{% extends 'dashboard/base.html' %}
+{% block content %}
+    <div class = "editprofile">
+        <h1>Edit your profile: </h1>
+        <form method = "post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <button type = "submit" class = "edit">Submit</button>
+        </form>
+    </div>
+{% endblock %}
